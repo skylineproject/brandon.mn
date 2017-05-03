@@ -14,6 +14,6 @@ app.registerInitializer({
   }
 });
 
-app.renderComponent('my-app', containerElement, null);
+app.renderComponent('app', containerElement, null);
 
 app.boot();
