@@ -2,7 +2,7 @@ html {
   font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-div#app {
+div.main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,6 +11,13 @@ div#app {
 section.header {}
 
 section.about-me {}
+
+footer {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  font-style: italic;
+}
 
 .brandon-wordmark {
   font-size: 3rem;
