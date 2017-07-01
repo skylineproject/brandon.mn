@@ -1,0 +1,9 @@
+<div>
+  {{#each entries key="@index" as |entry|}}
+    <work-entry
+      @title={{entry.title}}
+      @url={{entry.url}}
+      @desc={{entry.desc}}
+    />
+  {{/each}}
+</div>
