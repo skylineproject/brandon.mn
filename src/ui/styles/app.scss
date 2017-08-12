@@ -4,6 +4,7 @@ html {
 
 div.recent-photos {
   display: flex;
+  flex-wrap: wrap;
 }
 
 div.photo-viewer {
