@@ -2,44 +2,10 @@ html {
   font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-div.main {
+div.recent-photos {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-section.header {}
-
-section.about-me {}
-
-footer {
-  display: block;
-  text-align: center;
-  font-size: .8rem;
-  font-style: italic;
-}
-
-.brandon-wordmark {
-  font-size: 3rem;
-  padding: 1rem;
-  #brandon {
-    #bran {
-      color: darkred;
-      font-weight: bold;
-    }
-    #don {
-      color: steelblue;
-      letter-spacing: 1rem;
-    }
-  }
-  #johnson {
-    #john {
-      color: goldenrod;
-      font-weight: bold;
-    }
-    #son {
-      color: darkgreen;
-      letter-spacing: 1rem;
-    }
-  }
+div.photo-viewer {
+  flex-grow: 1;
 }
