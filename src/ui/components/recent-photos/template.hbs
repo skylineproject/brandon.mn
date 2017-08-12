@@ -1,5 +1,5 @@
 <div class="recent-photos">
-{{#each photos key="@index" as |url|}}
-  <photo-view @url={{url}} />
+{{#each photos key="@index" as |photo|}}
+  <photo-view @photo={{photo}} />
 {{/each}}
 </div>

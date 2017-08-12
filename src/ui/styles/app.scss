@@ -4,9 +4,11 @@ html {
 
 div.recent-photos {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
 
-div.photo-viewer {
-  flex-grow: 1;
+div.photo-view {
+  flex: 1;
+  width: 200px;
 }

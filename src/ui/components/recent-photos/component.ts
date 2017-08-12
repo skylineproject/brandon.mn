@@ -8,7 +8,11 @@ export default class RecentPhotos extends Component {
     return fetch('https://brandon-mn-proxy-duzsidqgct.now.sh')
       .then((res) => res.json())
       .then((data) => {
-        this.photos = data.items.map(p => p.images.thumbnail.url).slice(0, 5)
+        this.photos = data.items.map(p => ({
+	  url: p.images.thumbnail.url,
+	  caption: p.caption && p.caption.text,
+	  link: p.link
+	}))
       })
   }
 
