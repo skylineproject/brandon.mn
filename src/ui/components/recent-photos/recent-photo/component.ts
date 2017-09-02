@@ -1,6 +1,6 @@
 import Component  from '@glimmer/component';
 
-export default class PhotoView extends Component {
+export default class RecentPhoto extends Component {
   get url() {
     return this.args.photo.url
   }
