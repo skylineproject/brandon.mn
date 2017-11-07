@@ -12,7 +12,7 @@ export default class RecentPhotos extends Component {
 	  url: p.images.thumbnail.url,
 	  caption: p.caption && p.caption.text,
 	  link: p.link
-	}))
+	})).slice(0, 5)
       })
   }
 
