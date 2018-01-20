@@ -11,6 +11,7 @@ div.main {
   padding: 1em;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 div.logo-type {
@@ -18,8 +19,24 @@ div.logo-type {
   color: white;
   padding: 1rem;
   margin: 1rem;
+  display: flex;
+  max-width: 30vw;
+  max-height: 30vh;
+  align-items: center;
+  h1 {
+    padding: 1rem;
+  }
+  .img {
+    flex-shrink: 1;
+    width: auto;
+    height: 100%;
+    img {
+      width: auto;
+      height: 100%;
+      margin: 1.5rem;
+    }
+  }
 }
-
 section.about-me {
   flex-basis: 100%;
   padding: 1rem;
