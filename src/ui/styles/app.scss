@@ -20,20 +20,21 @@ div.logo-type {
   padding: 1rem;
   margin: 1rem;
   display: flex;
-  max-width: 30vw;
-  max-height: 30vh;
   align-items: center;
   h1 {
     padding: 1rem;
+    max-width: 60%;
+    min-height: 10vh;
   }
   .img {
-    flex-shrink: 1;
-    width: auto;
-    height: 100%;
+    flex: 1;
+    padding: 1rem;
+    max-width: 40%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     img {
-      width: auto;
-      height: 100%;
-      margin: 1.5rem;
+      max-height: 30vh;
     }
   }
 }
