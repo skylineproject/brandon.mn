@@ -9,7 +9,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "deploy": "ember build && aws s3 sync --acl public-read ./dist/ s3://brandon.mn/"
   },
   "devDependencies": {
     "@glimmer/application": "^0.7.2",
