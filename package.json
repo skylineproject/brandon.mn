@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "deploy": "next build && next export && aws s3 sync --acl public-read ./out s3://brandoninthe.cloud/"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
