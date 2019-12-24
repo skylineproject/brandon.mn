@@ -9,7 +9,7 @@ const BioLede = () => (
 );
 
 const BioLink = ({ children, href }) => (
-  <a href={href} className={cx("text-quinary")}>
+  <a href={href} className={cx("text-quinary underline")}>
     {children}
   </a>
 );
