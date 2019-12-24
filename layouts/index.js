@@ -12,7 +12,7 @@ export default ({ children, title = "BRANDON JOHNSON" }) => (
     <header className={cx("container", "mx-auto", "text-center")}>
       <h1
         className={cx([
-          "text-5xl",
+          "text-4xl",
           "font-extrabold",
           'text-tertiary',
           "text-center",
