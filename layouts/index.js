@@ -3,7 +3,7 @@ import Head from "next/head";
 import cx from "classnames";
 
 export default ({ children, title = "BRANDON JOHNSON" }) => (
-  <div className={'bg-primary min-h-screen'}>
+  <div className={"bg-primary min-h-screen flex flex-col justify-around"}>
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -14,14 +14,14 @@ export default ({ children, title = "BRANDON JOHNSON" }) => (
         className={cx([
           "text-4xl",
           "font-extrabold",
-          'text-tertiary',
+          "text-tertiary",
           "text-center",
           "inline-block",
           "border-quinary",
           "border-8",
           "border-solid",
           "px-3",
-          "m-6"
+          "m-6",
         ])}
       >
         brandon johnson

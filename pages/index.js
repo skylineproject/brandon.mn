@@ -14,11 +14,7 @@ const BioLink = ({ children, href }) => (
   </a>
 );
 
-const BioSegment = ({children}) => (
-  <p className={cx("py-2")}>
-    {children}
-  </p>
-)
+const BioSegment = ({ children }) => <p className={cx("py-2")}>{children}</p>;
 
 const Intro = () => (
   <section
@@ -26,7 +22,7 @@ const Intro = () => (
   >
     <div>
       <img
-        className={cx("mx-auto", "max-w-xs", 'md:max-w-sm')}
+        className={cx("mx-auto", "max-w-xs", "md:max-w-sm")}
         src="https://s3.amazonaws.com/brandon.mn/me.jpeg"
       />
     </div>
@@ -34,7 +30,12 @@ const Intro = () => (
       <BioLede />
       <div className={cx("py-6")}>
         <BioSegment>
-          I act as creative tech partner at{" "}
+          I run <BioLink href="http://leftblank.co">Left Blank</BioLink>, a
+          creative tech partner for boutique agencies, event producers, and
+          other clients who need robust, quick-turnaround web and mobile apps.
+        </BioSegment>
+        <BioSegment>
+          I also act as a partner at{" "}
           <BioLink href="https://plakeside.com">PlakeSide</BioLink>, a software
           studio for the live event industry.
         </BioSegment>
@@ -46,9 +47,9 @@ const Intro = () => (
           .
         </BioSegment>
         <BioSegment>
-          Previously, I was a research software engineer for digital agency
-          powerhouse <BioLink href="https://www.space150.com">space150</BioLink>
-          , and helped build identity management systems for the{" "}
+          Previously, I was a research software engineer for digital agency{" "}
+          <BioLink href="https://www.space150.com">space150</BioLink>, and
+          helped build outage processes and identity management systems for the{" "}
           <BioLink href="https://umn.edu">University of Minnesota</BioLink>.
         </BioSegment>
       </div>
