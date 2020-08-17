@@ -47,7 +47,7 @@ export default ({ children, title = "BRANDON JOHNSON" }) => (
           "text-tertiary",
           "text-center",
           "inline-block",
-          "border-quinary",
+          "border-hexinary",
           "border-8",
           "border-solid",
           "px-3",

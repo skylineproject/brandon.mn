@@ -24,6 +24,7 @@ const Intro = () => (
       <img
         className={cx("mx-auto", "max-w-xs", "md:max-w-sm")}
         src="https://s3.amazonaws.com/brandon.mn/me.jpeg"
+        alt="Brandon Johnson"
       />
     </div>
     <div className={cx("px-12", "py-4", "md:self-center")}>
