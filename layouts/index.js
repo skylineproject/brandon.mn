@@ -6,6 +6,36 @@ export default ({ children, title = "BRANDON JOHNSON" }) => (
   <div className={"bg-primary min-h-screen flex flex-col justify-around"}>
     <Head>
       <title>{title}</title>
+      <meta name="title" content="BRANDON JOHNSON" />
+      <meta
+        name="description"
+        content="An independent software engineer and tech community organizer based in Minneapolis, MN. Organizer of JavaScriptMN, ServerlessMN, and other meetups. Specializes in experimental software development, research computing, and interactive geospatial experiences."
+      />
+
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://brandon.mn/" />
+      <meta property="og:title" content="BRANDON JOHNSON" />
+      <meta
+        property="og:description"
+        content="An independent software engineer and tech community organizer based in Minneapolis, MN. Organizer of JavaScriptMN, ServerlessMN, and other meetups. Specializes in experimental software development, research computing, and interactive geospatial experiences."
+      />
+      <meta
+        property="og:image"
+        content="https://s3.amazonaws.com/brandon.mn/me.jpeg"
+      ></meta>
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://brandon.mn/" />
+      <meta property="twitter:title" content="BRANDON JOHNSON" />
+      <meta
+        property="twitter:description"
+        content="An independent software engineer and tech community organizer based in Minneapolis, MN. Organizer of JavaScriptMN, ServerlessMN, and other meetups. Specializes in experimental software development, research computing, and interactive geospatial experiences."
+      />
+      <meta
+        property="twitter:image"
+        content="https://s3.amazonaws.com/brandon.mn/me.jpeg"
+      />
+
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
