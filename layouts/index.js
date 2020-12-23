@@ -59,7 +59,7 @@ export default ({ children, title = "BRANDON JOHNSON" }) => (
     </header>
     <main className={"container mx-auto background-red-700"}>{children}</main>
     <footer className={"text-tertiary text-center p-4"}>
-      <p>made with 💞 and ☕️ in minneapolis, mn.</p>
+      <p>made in minneapolis, mn.</p>
     </footer>
 
     <style jsx global>
