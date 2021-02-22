@@ -22,46 +22,50 @@ const Intro = () => (
   >
     <div>
       <img
-        className={cx("mx-auto", "max-w-xs", "md:max-w-sm")}
+        className={cx("mx-auto", "w-3/5", "max-w-1/4", "sm:max-w-sm", 'sm:w-full', 'py-4')}
         src="https://s3.amazonaws.com/brandon.mn/me.jpeg"
         alt="Brandon Johnson"
       />
     </div>
-    <div className={cx("px-12", "py-4", "md:self-center")}>
+    <div className={cx("px-12", 'pt-1', "md:self-center")}>
       <BioLede />
-      <div className={cx("py-6")}>
+      <div>
         <BioSegment>
           I'm a bit of a hodge-podge. In the past year, I've helped clients
           build RFID access control systems, prototype social networks, deploy
           hybrid mobile apps, and improve their legacy React codebases. Your
           kind of hodge-podge?{" "}
           <BioLink href="mailto:brandon@leftblank.co">Let's talk.</BioLink>
-        </BioSegment>
-        <BioSegment>
-          Some folks I've worked with:
-          <ul className="pl-4 pb-4 list-disc">
-            <li>
-              <BioLink href="https://plakeside.com">PlakeSide</BioLink>
-            </li>
-            <li>
-              <BioLink href="https://thegeminisociety.com">
-                The Gemini Society
-              </BioLink>
-            </li>
-            <li>
-              <BioLink href="https://www.instagram.com/p/CE93KSulCSH/">
-                Haroldson Art &amp; Design
-              </BioLink>
-            </li>
-          </ul>
-          <a
-            className="bg-hexinary px-2 py-1 font-bold text-primary hover:text-quinary"
-            target="blank"
-            rel="noopener noreferrer"
-            href="https://www.notion.so/d94c74f48de944ffbbdb8af920a6599e?v=efd819ac6757487f8302be4a882e559a"
-          >
-            see case studies
+          <div className="my-4">
+            <div className="py-4 md:flex items-top justify-between">
+              <div className="w-full">
+                <p>some clients + friends: </p>
+                <ul className="list-disc list-inside">
+                  <li>modern logic</li>
+                  <li>safe haus group</li>
+                  <li>haroldson art &amp; design</li>
+                </ul>
+              </div>
+              <div className="text-justify w-full pt-2 md:pt-0">
+                <p>some things we've done: </p>
+                <ul className="list-disc list-inside text-left">
+                  <li>web &amp; native apps</li>
+                  <li>IoT dev &amp; mgmt</li>
+                  <li>24x7 event support</li>
+                </ul>
+              </div>
+            </div>
+            <a
+              className="bg-hexinary px-2 py-1 font-bold text-primary hover:text-quinary"
+              target="blank"
+              rel="noopener noreferrer"
+              href="https://www.notion.so/brandonjohnson/Brandon-Johnson-left-blank-co-01e5d8741cad4388b2cdffc2cb91d1ca"
+            >
+              see case studies
           </a>
+
+          </div>
+
         </BioSegment>
         <BioSegment>
           I am on the board of{" "}
