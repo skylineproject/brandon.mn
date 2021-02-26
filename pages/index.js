@@ -27,7 +27,7 @@ const Intro = () => (
         alt="Brandon Johnson"
       />
     </div>
-    <div className={cx("px-12", 'pt-1', "md:self-center")}>
+    <div className={cx("px-8", 'pt-1', "md:self-center")}>
       <BioLede />
       <div>
         <BioSegment>
